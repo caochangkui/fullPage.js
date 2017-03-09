@@ -1,0 +1,46 @@
+*{ 
+	margin: 0; 
+	padding: 0; 
+} 
+.slide{ 
+	font-size: 60px; 
+	text-align: center; 
+} 
+#fullpageMenu {
+	margin: 0;
+	padding: 0; 
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	list-style-type: none; 
+	z-index: 70;
+}
+#fullpageMenu li {
+	float: left; 
+	margin:  0 10px 0 0; 
+	font-size: 14px;
+	}
+#fullpageMenu a {
+	float: left; 
+	padding: 10px 20px;
+	background-color: #fff; 
+	color: #333; 
+	text-decoration: none;}
+#fullpageMenu .active a { 
+	color: #fff; 
+	background-color: red;
+}
+.section{
+	height:800px;
+	width:100%;
+	text-align: center; 
+}
+.section h1{
+	text-align:center;
+}
+.section1 p { font: 22px "Microsoft Yahei";position: relative; left: -120%;}
+.section3 p {font: 22px "Microsoft Yahei"; position: relative; bottom: -120%;}
+.section4 p { font: 22px "Microsoft Yahei";display: none;}
+ 
+
+ 

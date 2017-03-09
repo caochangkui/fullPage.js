@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>全屏滚动</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/> 
+<link rel="stylesheet" type="text/css" href="css/index.css"/> 
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script> 
+<!-- jquery.easings.min.js 是必须的，用于 easing 参数，也可以使用完整的 jQuery UI 代替 -->
+<script src="js/jquery.easings.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- 如果 scrollOverflow 设置为 true，则需要引入 jquery.slimscroll.min.js，一般情况下不需要
+<script src="js/jquery.slimscroll.min.js" type="text/javascript" charset="utf-8"></script> -->
+<script src="js/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<ul id="fullpageMenu"><!--ul导航栏按钮data-menuanchor为加载的页面page-->
+	<li data-menuanchor = "page1" class="active"><a href="#page1">section1</a></li> 
+	<li data-menuanchor = "page2"><a href="#page2">section2</a></li> 
+	<li data-menuanchor = "page3"><a href="#page3">section3</a></li> 
+	<li data-menuanchor = "page4"><a href="#page4">section4</a></li> 
+</ul> 
+<div id="fullpage"><!--div为容器，这里要用id名为fullpage-->
+	<div class="section section1"><!--默认的上下滚动页面，类名可改sectionSelector:".section"，不改默认类名要为section-->
+		<h1>这是第一屏</h1> 
+		<h4>fullPage.js — 回调函数演示</h4>
+		<p>滚动到第1屏后的回调函数执行的效果</p>
+	</div> 
+	<div class="section section2"> 
+		<div class="slide">幻灯片1</div><!--默认的左右滚动幻灯片，类名可改slideSelector:".slide"，不改默认类名要为slide-->
+		<div class="slide">幻灯片2</div> 
+		<div class="slide">幻灯片3</div> 
+		<div class="slide">幻灯片4</div> 
+	</div> 
+	<div class="section section3"> 
+		<h1>这是第三屏</h1> 
+		<p>滚动到第3屏后的回调函数执行的效果</p>
+	</div> 
+	<div class="section section4"> 
+		<h1>这是第四屏</h1> 
+		<p>滚动到第4屏后的回调函数执行的效果</p>
+	</div> 
+</div> 
+</body>
+</html>
+ 
